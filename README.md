@@ -1,14 +1,16 @@
-# @TODO: Replace with your project title
+# PYZKOLARI
 
-*@TODO: Replace with your project description.*
+Pyzkolari is a Python module designed to provide an easy-to-use logging system for Python applications. It allows developers to log messages with different severity levels, making it easier to track application behavior and diagnose issues.
+
+Pyzkolari comes from the Basque word ["aizkolari"](https://en.wikipedia.org/wiki/Aizkolaritza), which translates into somone who uses an axe, typically in the context of logging or chopping wood, but with sporting aim. The name reflects the module's purpose of "chopping" through logs and providing a clear view of application events. 
 
 ## Current state of things
 
-*@TODO: Replace with your current project state.*
+This project is currently in its early stages. The initial version is functional, but there are many features and improvements planned for future releases.
 
 ## Purpose
 
-*@TODO: Add purpose*
+Obvious: to provide a logging system for Python applications. Extra: to provide a logging system that is easy to use, flexible, and extensible.
 
 ## Ethics and values
 This is designed to be used in a responsible way. You know what I mean.
@@ -17,20 +19,20 @@ In any case, try to use it for good, and to help others.
 
 ## 📁 Project Structure
 
-*@TODO: Replace with your project structure.*
+The project structure is designed to be simple and intuitive, following common Python project conventions. Here's an overview of the directory structure:
 
 ````plaintext:
 project_name/
 ├── src/                  # Source code
-│   └── project_name/     # Main Python package
+│   └── (sub)module_name/ # Main Python
 │       ├── __init__.py
 │       └── ...
 │
-├── resources/            # Static files, configurations, translations, etc.
+├── assets/            # Static files, configurations, translations, etc.
 │
 ├── tests/                # Unit tests
 │
-├── main.py               # Entry point or script for execution
+├── main.py               # Example script for execution. Doesn't provide any functionality, just an example of how to use the module.
 ├── VERSION               # Version of the project (to be filled by the developer)
 ├── requirements.txt      # List of dependencies
 ├── README.md             # Project overview and instructions
@@ -47,19 +49,16 @@ Python 3.8 or higher
 pip (Python package installer)
 
 ### Installation
+
+Repo GitHub page: https://github.com/Amokran/pyzkolari
+
 Clone the repository:
 
-*@TODO: Replace with your repository URL*
 ````bash:
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/Amokran/pyzkolari.git
 ````
 
-Navigate to the project directory:
-
-*@TODO: Replace with your project directory name*
-````bash:
-cd your-project
-````
+It is advised to clone the repository as a submodule of your project, so you can keep it up to date easily, since this is still in early development so it won't be uploaded to PyPI yet.
 
 (Optional) Create and activate a virtual environment:
 
@@ -76,13 +75,17 @@ pip install -r requirements.txt
 
 ## 🧠 Usage
 
-*@TODO: Explain how to run the project or use its components.*
+You'll find a main.py file in the root directory, but that is a mere example of how to use the module. 
 
 ````bash:
 python main.py
 ````
 
-*@TODO: Describe how the modules under src/ are intended to be used.*
+However, the main functionality is encapsulated in the `pyzkolari` package under the `src/` directory. That's what you should import in your own code:
+
+```python 
+from pyzkolari import LogManager
+````
 
 ## 🧪 Running Tests
 
