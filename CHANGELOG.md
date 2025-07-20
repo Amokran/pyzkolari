@@ -9,7 +9,17 @@ Fixed|Added|Changed|Deprecated|Removed|Security
 
     - Description of the change.
 
-## [0.0.1] - 2023-10-15
+## [0.0.2] - 2023-07-10
+
+### Added
+    - Addedn `info` method to `LogManager` for logging informational messages.
+    - Added main.py example script to demonstrate usage of the `pyzkolari` package.
+
+### Changed
+    - Updated `LogManager` to handle logging levels more effectively.
+    - Changed `warning` into `warn` method to `LogManager` for logging warning messages.
+
+## [0.0.1] - 2025-07-10
 
 ### Added
 - Initial project structure.
