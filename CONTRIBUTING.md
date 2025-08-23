@@ -1,10 +1,10 @@
 Thank you for your interest in improving this project.
 
-*@TODO: Update this file with your own project information.*
-
 # Contributing to this Project
-*@TODO: Modify this section to fit your project.*
-[Although] this is [not] an open collaboration project, feedback and suggestions are very welcome. Whether you've found a bug or have an idea to enhance the script, your input is appreciated.
+
+This is an early version, and possibly won't accept pull requests at this stage.
+Anyway, if you're interested in contributing, please open an issue and we can discuss it.
+Feedback and suggestions are very welcome. Whether you've found a bug or have an idea to enhance the script, your input is appreciated.
 
 ## 📧 Reporting Issues or Suggestions
 

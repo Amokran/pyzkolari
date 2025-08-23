@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyzkolari"
+dynamic = ["version"]
+description = "Descripción de tu módulo"
+authors = [{name = "Amokran", email = "amozoh@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Add here the dependencies of your project.
+    # Example:  
+    # "requests>=2.25.0",
+    # "loguru>=0.6.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/tu-usuario/tu-repo"
+Repository = "https://github.com/tu-usuario/tu-repo"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.dynamic]
+version = {file = "VERSION"}
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=1.0.0"
+]
